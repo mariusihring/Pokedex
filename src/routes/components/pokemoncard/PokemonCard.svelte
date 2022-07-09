@@ -30,9 +30,9 @@
 </script>
 
 <section>
-	<div class="align-center">
-		<div class="card w-96 bg-slate-500 shadow-xl">
-			<figure><img src={sprite} alt="Shoes" class="h-28 w-28" /></figure>
+	<div class="align-center sm:px-1 sm:py-1 px-4 py-4">
+		<div class="card lg:w-96 sm:w-24 bg-base-100 shadow-xl">
+			<figure><img src={sprite} alt="Pokemon" /></figure>
 			<div class="card-body">
 				<h2 class="card-title">
 					{pokemon.name}
