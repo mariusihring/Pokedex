@@ -31,7 +31,7 @@
 
 <section>
 	<div class="align-center sm:px-1 sm:py-1 px-4 py-4">
-		<div class="card lg:w-96 sm:w-24 bg-base-100 shadow-xl">
+		<div class="card lg:w-96  bg-base-100 shadow-xl">
 			<figure><img src={sprite} alt="Pokemon" /></figure>
 			<div class="card-body">
 				<h2 class="card-title">
