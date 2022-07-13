@@ -3,13 +3,13 @@
 	import SinglePokemon from './components/singlePokemon/singlePokemon.svelte';
 	let url: string = 'https://pokeapi.co/api/v2/pokemon?limit=1000?offset=0';
 	let pokemon: any[] = [];
-	let specificPoke: any[] = [];
 	let Query: string = '';
 	let loading: Promise<any> | undefined;
 
 	function fetchData() {
 		if (Query != '') {
 			loading = fetchSpecificPoke();
+			Query = '';
 		} else {
 			loading = fetchAllPoke();
 		}
